@@ -147,7 +147,9 @@ terraform apply
 Option 1:
 
 - Go to OpenLens
-- Config → Secrets → argocd-initial-admin-secret
+- Config → Secrets
+- In the top right, change Namespace from default to argocd
+- Click on the argocd-initial-admin-secret row
 - password box → expose password
 
 Option 2:
